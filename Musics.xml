@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicCompositions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns="http://www.example.org/Musics"
+             xsi:schemaLocation="http://www.example.org/Musics Musics.xsd">
+	<music id="id1" gener="ROCK">
+		<frequency>96000</frequency>
+		<duration>2.12</duration>
+		<description>
+			<title>Nzvanie1</title>
+			<author>Avtor1</author>
+		</description>
+	</music>
+	<music id="id2" gener="POP">
+		<frequency>96000</frequency>
+		<duration>3.14</duration>
+		<description>
+			<title>Nzvanie2</title>
+			<author>Avtor2</author>
+		</description>
+	</music>
+	<music id="id3" gener="FOLK">
+		<frequency>44100</frequency>
+		<duration>1.20</duration>
+		<description>
+			<title>Nzvanie3</title>
+			<author>Avtor3</author>
+		</description>
+	</music>
+	<music id="id4" gener="ROCK">
+		<frequency>48000</frequency>
+		<duration>4.24</duration>
+		<description>
+			<title>Nzvanie4</title>
+			<author>Avtor4</author>
+		</description>
+	</music>
+	<music id="id5" gener="RNB">
+		<frequency>48000</frequency>
+		<duration>2.23</duration>
+		<description>
+			<title>Nzvanie5</title>
+			<author>Avtor5</author>
+		</description>
+	</music>
+	<music id="id6" gener="JAZZ">
+		<frequency>32000</frequency>
+		<duration>4.21</duration>
+		<description>
+			<title>Nzvanie6</title>
+			<author>Avtor6</author>
+		</description>
+	</music>
+	<music id="id7" gener="JAZZ">
+		<frequency>48000</frequency>
+		<duration>4.2</duration>
+		<description>
+			<title>Nzvanie7</title>
+			<author>Avtor7</author>
+		</description>
+	</music>
+	<music id="id8" gener="RNB">
+		<frequency>44100</frequency>
+		<duration>2.3</duration>
+		<description>
+			<title>Nzvanie8</title>
+			<author>Avtor8</author>
+		</description>
+	</music>
+	<music id="id9" gener="POP">
+		<frequency>48000</frequency>
+		<duration>2.21</duration>
+		<description>
+			<title>Nzvanie9</title>
+			<author>Avtor9</author>
+		</description>
+	</music>
+	<music id="id10" gener="ROCK">
+		<frequency>98000</frequency>
+		<duration>3.2</duration>
+		<description>
+			<title>Nzvanie10</title>
+			<author>Avtor10</author>
+		</description>
+	</music>
+</musicCompositions>

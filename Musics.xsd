@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Musics"
+	xmlns:tns="http://www.example.org/Musics" elementFormDefault="qualified">
+	<element name="musicCompositions">
+		<complexType>
+			<sequence>
+				<element name="music" type="tns:Music" minOccurs="1"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="Music">
+		<sequence>
+			<element name="frequency" type="positiveInteger" />
+			<element name="duration" type="double" />
+			<element name="description" type="tns:Description" />
+		</sequence>
+		<attribute name="id" type="ID" use="required" />
+		<attribute name="gener" use="optional" default="POP">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="FOLK"></enumeration>
+					<enumeration value="POP"></enumeration>
+					<enumeration value="ROCK"></enumeration>
+					<enumeration value="RNB"></enumeration>
+					<enumeration value="JAZZ"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+	<complexType name="Description">
+		<sequence>
+			<element name="title" type="string" />
+			<element name="author" type="tns:Author" />
+		</sequence>
+	</complexType>
+
+	<simpleType name="Author">
+		<restriction base="string">
+			<pattern value="[a-zA-Z0-9]+"></pattern>
+		</restriction>
+	</simpleType>
+</schema>
